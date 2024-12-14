@@ -21,7 +21,6 @@ const router = useRouter()
 const email = ref('')
 const password = ref('')
 
-// Login funksiyasi
 const handleLogin = () => {
   if (email.value === 'admin@example.com' && password.value === 'password123') {
     router.push('/dashboard')
@@ -30,7 +29,6 @@ const handleLogin = () => {
   }
 }
 
-// Reset Password sahifasiga yo'naltirish
 const goToResetPassword = () => {
   router.push('/reset-password')
 }
